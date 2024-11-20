@@ -15,14 +15,20 @@
   <header class="banner">
 
     <style>
+      body {
+        background-color: black;
+      }
+
       .banner{
         font-family: Raleway;
         width: 1440px;
         height: 605px;
         flex-shrink: 0;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
+        background-image: url(./assets/images/banner.png);
       }
-
+      
+      
     </style>
 
     <div class="banner-content">
@@ -33,9 +39,11 @@
           align-items: center;
           gap: 16px;
           margin: 56px 465px 156px 465px;
+          
         }
       </style>
       <div class="logo">
+  
         <img src="assets/images/logo.png" title="Logotipo Trilha de CSS DIO" alt="Logotipo Trilha de CSS DIO">
       </div>
       <style>
@@ -49,15 +57,72 @@
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
+
+          p {
+            width: 510px;
+            color: #FFF;
+            text-align: center;
+            font-family: Raleway;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
         </style>
       <h1>Trilha de CSS da DIO</h1> 
       
       <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
+        <style>
+          button {
+            padding: 19px 91px;
+            justify-content: center;
+            align-items: center;
+            gap: 31px;
+            border: 2px solid #3BA1CD;
+            color: #31A8DD;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 3.36px;
+            text-transform: uppercase;
+            background-color: Transparent;
+
+          }
+        </style>
       <button>Quero me inscrever</button>
     </div>
   </header>
   <main>
     <section id="course-content">
+      <style>
+        #course-content {
+
+          display: inline-flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 24px;
+        }
+
+        h2 {
+          color: #33A8DB;
+          font-family: Raleway;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: 6.08px;
+          text-transform: uppercase;
+          display: inline-flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 24px;
+          margin: 118px 324px 0px 324px;
+        }
+      </style>
       <h2>O que vou aprender?</h2>
       <p>
         Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a 
@@ -65,6 +130,32 @@
       </p>
       <div class="modules-list">
         <div class="module">
+          <style>
+            .module {
+              gap: 24px;
+              width: 535px;
+              padding: 16px 127px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              border-radius: 57px;
+              border: 1px solid #33A8DB;
+              background: #252525;
+              box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+              color: #33A8DB;
+              font-family: Raleway;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              color: #FFF;
+              font-family: Raleway;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          </style>
           <span>Módulo 01:</span> primeiros passos com CSS
         </div>
         <div class="module">

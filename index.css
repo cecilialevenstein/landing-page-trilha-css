@@ -1,21 +1,48 @@
 body {
+    background-color: black;
     width: 1440px;
-    height: 2491px;
-    background: #000;
-}
+    align-items: center;
+  }
 
-.banner {
+  .banner{
     font-family: Raleway;
+    align-items: center;
     width: 1440px;
     height: 605px;
     flex-shrink: 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
-}
+    background-image: url(./assets/images/banner.png);
+  }
 
-.banner-content {
+  .banner-content {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    font-family: Raleway;
-}
+    margin: 56px 465px 156px 465px;
+    
+  }
+
+  h1 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+    p {
+      width: 510px;
+      color: #FFF;
+      text-align: center;
+      font-family: Raleway;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    
